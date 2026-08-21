@@ -1,0 +1,121 @@
+/* ---------- GENERAL PAGE ---------- */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f5f1e8;
+    overflow: hidden;
+}
+
+
+/* ---------- HOMEPAGE ---------- */
+
+.homepage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* ---------- PHOTO ---------- */
+
+.portrait {
+    position: absolute;
+
+    width: 500px;
+    height: auto;
+
+    left: 50%;
+    bottom: 0;
+
+    transform: translateX(-50%);
+}
+
+
+/* ---------- EYES ---------- */
+
+.eyes {
+    position: absolute;
+
+    left: 50%;
+    top: 35%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 15px;
+}
+
+
+/* The white part of an eye */
+
+.eye {
+    width: 100px;
+    height: 50px;
+
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* The black pupil */
+
+.pupil {
+    width: 20px;
+    height: 20px;
+
+    background: black;
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+/* ---------- THOUGHT BUBBLE ---------- */
+
+.thought-bubble {
+    position: absolute;
+
+    top: 10%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: white;
+
+    border: 3px solid black;
+    border-radius: 30px;
+
+    padding: 25px 35px;
+
+    display: flex;
+    gap: 25px;
+}
+
+
+/* Links inside the bubble */
+
+.thought-bubble a {
+    color: black;
+    text-decoration: none;
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+/* Little interaction when hovering over a link */
+
+.thought-bubble a:hover {
+    transform: scale(1.1);
+}
