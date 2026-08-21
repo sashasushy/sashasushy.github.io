@@ -1,10 +1,47 @@
-<!DOCTYPE HTML>
-<head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<div id="eyes" style="position: fixed;top: 20px;left: 20px;z-index: 1000">
-  <div class="eye" style="width: 150px;height: 60px;background: white;border: 2px solid black;border-radius: 50%;position: relative;display: inline-block;margin-right: 10px">
-    <div class="pupil" style="width: 20px;height: 20px;background: black;border-radius: 50%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%)"></div> </div>
-  <div class="eye" style="width: 150px;height: 60px;background: white;border: 2px solid black;border-radius: 50%;position: relative;display: inline-block">
-    <div class="pupil" style="width: 20px;height: 20px;background: black;border-radius: 50%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%)"></div> </div> </div>
+
+    <main class="homepage">
+
+        <!-- My photograph -->
+        <img class="portrait" src="me.jpg" alt="A photo of me">
+
+        <!-- Graphic eyes -->
+        <div class="eyes">
+
+            <div class="eye">
+                <div class="pupil"></div>
+            </div>
+
+            <div class="eye">
+                <div class="pupil"></div>
+            </div>
+
+        </div>
+
+        <!-- Thought bubble -->
+        <div class="thought-bubble">
+
+            <a href="https://example.com">Blog</a>
+            <a href="https://open.spotify.com/">Spotify</a>
+            <a href="#">Projects</a>
+            <a href="#">About me</a>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
