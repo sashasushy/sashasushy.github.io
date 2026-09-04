@@ -6,6 +6,9 @@ body {
     background: #f5f1e8;
     overflow: hidden;
     background-image: url('eu.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 
