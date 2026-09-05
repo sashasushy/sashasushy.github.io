@@ -41,15 +41,14 @@ body {
 .eyes {
     position: absolute;
 
-    left: 50%;
-    top: 35%;
+    left: 49%;
+    top: 45%;
 
     transform: translate(-50%, -50%);
 
     display: flex;
-    gap: 15px;
+    gap: 80px;
 }
-
 
 /* The white part of an eye */
 
